@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Regency</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+  .fakeimg {
+    height: 200px;
+    background: #82013d;
+  }
+  </style>
+</head>
+<body>
+
+<div class="jumbotron text-center" style="margin-bottom:0; background-color: #ff0000;">
+   
+</div>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>    
+        <span class="icon-bar"></span>                    
+      </button>
+      <a class="navbar-brand" href="#">Regency Pty LTD</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+           <li><a href="shortstack.html">Home</a></li>
+				<li><a href="about.html">About</a></li>
+			<li><a href="services.html">Services</a></li>
+            <li><a href="payments.html">Payments</a></li>
+      <li><a href="Contact.html">Contact</a></li>
+      </ul>
+      
+    </div>
+  </div>
+</nav>
+  <hp style="text-align: center;">Regency Embroiderers first opened its doors for business in 1994 and 14 years later, current owner, Sue Lawrence took the helm.
+Over 25 years in operation has meant that Regency provides employment to excellent and experienced members of staff who have been with the company since day one.
+    <br><br>As experts within this field, we pride ourselves in the uniqueness and versatility of our embroidered products. With the custom designs given to us by our customers, the stream of creativity is endless! Our embroidery is durable and not susceptible to natural wear and tear, reassuring the quality of our work.</p>
+<style>
+  .image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .image-container img {
+    max-width: 400px;
+    max-height: 200px;
+  }
+
+  .bank-details {
+    text-align: center;
+  }
+</style>
+
+
+  <div class="bank-details">
+    <h3>Services we offer</h3>
+    <h4>Embroidery
+    </h4>
+    <h4>Promotional clothing</h4>
+    <h4>School Uniforms</h4>
+    <h4>Work wear</h4>
+    <h4>Sports wear</h4>
+    <h4>Chef's uniforms</h4>
+    <h4>Cleaning uniforms</h4>
+  
+       <h4>Caps and hats</h4>
+   <h4>Branded promotional items</h4>
+  </div>
+<h4>
+  We specialize in large run orders for schools,universities,cleaning teams and sports uniforms
+  </h4>
+<h3>
+  Some of our clients have included:
+  </h3>
+  
+  <h4>
+    Wits University.Saint Stithians.Linksfield Primary School.
+  </h4>
+
+
+    <h2 style="text-align: center;">Contact our team</h2>
+    
+      <style>
+  .form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh; /* Set the height of the container to 100% of viewport height */
+  }
+
+  form {
+    max-width: 600px; /* Set the maximum width of the form */
+    width: 100%; /* Set the width to 100% to center it within the container */
+  }
+</style>
+
+<div class="form-container">
+  <form action="mailto:courtneyskylerdubb@gmail.com" method="post" enctype="text/plain">
+    <div class="form-group">
+      <label for="name">Full Name:</label>
+      <input type="text" class="form-control" id="name" name="name" required>
+    </div>
+    <div class="form-group">
+      <label for="phone">Cellphone Number:</label>
+      <input type="tel" class="form-control" id="phone" name="phone" required>
+    </div>
+    <div class="form-group">
+      <label for="email">Email Address:</label>
+      <input type="email" class="form-control" id="email" name="email" required>
+    </div>
+    <div class="form-group">
+      <label for="comments">Comments:</label>
+      <textarea class="form-control" rows="5" id="comments" name="comments" required></textarea>
+    </div>
+    <style>
+.btn-submit {
+  background-color: #ff0000;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.btn-submit:hover {
+  background-color: #d54e75;
+}
+</style>
+
+<button type="submit" class="btn btn-submit">Submit</button>
+
+  </form>
+</div>
+
+<br>
+<div class="jumbotron text-center" style="margin-bottom:0">
+  <h5>All Rights Reserved 2023 - Regency Pty LTD </h5>
+
+</div>
+
+	
+</body>
+</html>
